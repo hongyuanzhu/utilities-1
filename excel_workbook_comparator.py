@@ -5,9 +5,10 @@ import subprocess
 
 def compare_worksheets(sheet1, sheet2):
     '''
-        compare function if sheet1 and sheet2 are dataframes
+        NEED TO DO:
+        write compare function if sheet1 and sheet2 are dataframes (df1 != df2)
     '''
-    #subprocess.call(['diff', sheet1, sheet2])
+    subprocess.call(['diff', sheet1, sheet2])
     
 def remove_sheet(sheet):
     subprocess.call(['rm', sheet])
