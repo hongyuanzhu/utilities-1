@@ -8,3 +8,6 @@ def equal_dfs(df1, df2):
         return True
     except:
         return False
+
+def mask(df, key, value):
+    return df[df[key] == value]
