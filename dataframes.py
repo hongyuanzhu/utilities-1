@@ -10,4 +10,6 @@ def equal_dfs(df1, df2):
         return False
 
 def mask(df, key, value):
+    # need to change the pandas.DataFrame.mask function
+    # set pd.DataFrame.mask = mask after defining function
     return df[df[key] == value]
